@@ -1,0 +1,62 @@
+.back_all {
+  background-size: cover;
+}
+
+.back_awal {
+  background-image: url('../images/quins.png');
+}
+
+.back_satu {
+  background-image: url('../images/pexels-pavel-chernonogov-2381463.jpg');
+}
+
+.back_satuu {
+  background-image: url('../images/satu.png');
+}
+
+.back_dua {
+  background-image: url('../images/pexels-cottonbro-3738088.jpg');
+}
+
+.back_duaa {
+  background-image: url('../images/dua.png');
+}
+
+.back_tiga {
+  background-image: url('../images/pexels-luis-quintero-1453005.jpg');
+}
+
+.back_tigaa {
+  background-image: url('../images/tiga.png');
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

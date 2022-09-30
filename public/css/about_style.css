@@ -1,0 +1,131 @@
+body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    background-color: #63b8a7;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+  .profil_all {
+    background-size: cover;
+  }
+
+  .back_awal {
+    background-image: url('../images/about_2.png');
+  }
+
+  .back_satu {
+    background-color: #c1f4c5;
+  }
+
+  .font_color {
+    color: black;
+  }
+
+  .profil_1 {
+    background-image: url('https://www.jhcutler.com/wp-content/uploads/2019/05/JH-Introduction-Image-1.png');
+  }
+
+  .profil_2 {
+    background-position: center;
+    background-image: url('https://i0.wp.com/terasbiker.com/wp-content/uploads/2018/10/Ardhi-Sulistyo-saat-Berlatih-Troubleshooting-di-Yamaha-Flagship-Shop-Jakarta.jpg?fit=1024%2C682&ssl=1');
+  }
+
+  .profil_3 {
+    background-image: url('https://yt3.ggpht.com/ytc/AAUvwniojpckM7s9jDG5rWqW_KoLjtsfMIrXDVfVccfIlg=s900-c-k-c0x00ffffff-no-rj');
+  }
+
+  .profil_4 {
+    background-image: url('https://www.biography.com/.image/t_share/MTgwOTcxNDk2NDQzNzQ5NzM2/gettyimages-1148433914.jpg');
+  }
+
+  .profil_5 {
+    background-image: url('https://imgx.gridoto.com/crop/0x0:0x0/750x500/photo/gridoto/2018/02/10/943264453.jpg');
+  }
+
+  .profil_6 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Tom_Wright_Architect_Photo.JPG');
+  }
+
+  .profil_7 {
+    background-position: center;
+    background-image: url('https://i.ytimg.com/vi/WlzarwT2bH4/maxresdefault.jpg');
+  }
+
+  .profil_8 {
+    background-image: url('https://web.pln.co.id/statics/uploads/2021/01/2.-Wadirut_Darmawan-Prasodjo.jpg');
+  }
+
+  .profil_9 {
+    background-image: url('https://a.storyblok.com/f/119968/800x800/70edb01c84/yue_minjun_thumbnail-0-5x.jpg');
+  }
+  
+  .container2 {
+    max-width: 960px;
+  }
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

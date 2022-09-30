@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+}
+
+.back_header {
+    background-image: url('../images/back_header.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.back_content {
+    background-color: #CFECFA;
+}
+
+.back_cont {
+  background-image: url('../images/kontak.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.back_cont2 {
+  background-image: url('../images/kontak2.png');
+  background-size: cover;
+}
+
+#popup {
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	bottom: 0;
+  left: 0;
+  right: 0;
+	z-index: 9999;
+	visibility: hidden;
+  place-content: center;
+}
+
+#popup:target {
+	visibility: visible;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.container2 {
+    max-width: 960px;
+  }
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
